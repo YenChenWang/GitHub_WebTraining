@@ -20,3 +20,6 @@ let market = [
 ]
 
 console.log(market);
+
+console.log(market[0].bossName);
+console.log(market[1].appleNum);

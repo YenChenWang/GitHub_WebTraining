@@ -2,6 +2,10 @@
   font-size: 30px;
 }
 
+.menu li:hover {
+  color: darkcyan;
+}
+
 .menu li a {
   color: red;
 }

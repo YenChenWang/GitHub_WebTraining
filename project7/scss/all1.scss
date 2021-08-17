@@ -1,8 +1,12 @@
 .menu{
     li{
         font-size: 30px;
+        &:hover{
+            color: darkcyan;
+        }
         a{
             color: red;
+            // 加入 & 等同於 a:hover{}
             &:hover{
                 color: pink;
             }

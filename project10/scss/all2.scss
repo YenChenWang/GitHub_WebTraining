@@ -1,0 +1,21 @@
+$link-color-red: #ff0000;
+$font-size-M: 20px;
+$font-size-L: $font-size-M * 2;
+
+.header {
+    font-size: $font-size-M;
+
+    a {
+        width: 500px;
+        color: $link-color-red;
+    }
+}
+
+
+.content {
+    font-size: $font-size-L;
+
+    a {
+        color: $link-color-red;
+    }
+}

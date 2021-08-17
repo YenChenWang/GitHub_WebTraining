@@ -1,0 +1,11 @@
+// 圖片取代文字
+@mixin hide-text{
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.header h1{
+    background: url('https://i.pinimg.com/originals/9e/8e/18/9e8e18212e529bb23bcdeb3515b2276a.jpg');
+    @include hide-text;
+}

@@ -1,26 +1,2 @@
 @import "variable";
-
-body {
-    font-family: $font-family-base;
-}
-
-.header {
-    h1 {
-        font-family: $font-family-title;
-        font-size: $font-size-l;
-    }
-}
-
-.content {
-    li {
-        font-size: $font-size-m;
-        color: $color-red;
-    }
-}
-
-.footer {
-    p {
-        font-size: $font-size-s;
-        color: $color-blue;
-    }
-}
+@import "main";

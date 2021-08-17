@@ -1,0 +1,11 @@
+.menu{
+    li{
+        font-size: 30px;
+        a{
+            color: red;
+            &:hover{
+                color: pink;
+            }
+        }
+    }
+}

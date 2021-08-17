@@ -1,0 +1,12 @@
+.menu li {
+  font-size: 30px;
+}
+
+.menu li a {
+  color: red;
+}
+
+.menu li a:hover {
+  color: pink;
+}
+/*# sourceMappingURL=all1.css.map */

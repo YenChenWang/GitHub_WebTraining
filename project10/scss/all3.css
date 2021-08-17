@@ -1,0 +1,19 @@
+body {
+  font-family: "Helvetica, Arial, sans-serif";
+}
+
+.header h1 {
+  font-family: "monospace";
+  font-size: 48px;
+}
+
+.content li {
+  font-size: 24px;
+  color: red;
+}
+
+.footer p {
+  font-size: 12px;
+  color: blue;
+}
+/*# sourceMappingURL=all3.css.map */

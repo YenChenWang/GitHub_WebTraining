@@ -1,0 +1,22 @@
+// 圖片取代文字
+@mixin hide-text {
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+// @mixin 搭配參數使用  
+@mixin color($color, $size) {
+    color: $color;
+    border: 5px solid $color;
+    text-decoration: $color;
+    font-size: $size*1.5;
+}
+
+@mixin circle($size, $bgcolor) {
+    border-radius: 50%;
+    height: $size;
+    width: $size;
+    font-size: $size/3;
+    background: $bgcolor;
+}

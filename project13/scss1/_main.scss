@@ -1,0 +1,48 @@
+// RWD 平板的尺寸
+@mixin pad {
+    @media (max-width:768px) {
+        @content;
+    }
+}
+// RWD 手機的尺寸
+@mixin mobile {
+    @media (max-width:568px) {
+        @content
+    }
+}
+
+.header {
+    width: 500px;
+    @include pad{
+        width: 13px;
+        font-size: 20px;
+    }
+    @include mobile{
+        font-size: 9px;
+    }
+    a{
+        background-color: #000;
+        @include mobile{
+            background-color: #fff;
+        }
+    }
+}
+
+.header h1 {
+    background: url('https://i.pinimg.com/originals/9e/8e/18/9e8e18212e529bb23bcdeb3515b2276a.jpg');
+    @include hide-text;
+}
+
+
+.box1{
+    @include color(#ff0000, 16px);
+}
+
+.box2{
+    @include color(#000,20px);
+}
+
+
+.box{
+    @include circle(30px, #fff);
+}

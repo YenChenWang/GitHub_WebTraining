@@ -1,0 +1,32 @@
+.header h1 {
+    background: url('https://i.pinimg.com/originals/9e/8e/18/9e8e18212e529bb23bcdeb3515b2276a.jpg');
+    @include hide-text;
+}
+
+// @mixin 搭配參數使用  
+@mixin color($color,$size){
+    color: $color;
+    border: 5px solid $color;
+    text-decoration: $color;
+    font-size: $size*1.5;
+}
+
+.box1{
+    @include color(#ff0000, 16px);
+}
+
+.box2{
+    @include color(#000,20px);
+}
+
+@mixin circle($size, $bgcolor) {
+    border-radius: 50%;
+    height: $size;
+    width: $size;
+    font-size: $size/3;
+    background: $bgcolor;
+}
+
+.box{
+    @include circle(30px, #fff);
+}

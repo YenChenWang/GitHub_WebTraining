@@ -341,22 +341,10 @@ template {
   display: none;
 }
 
-body {
-  font-family: "Helvetica, Arial, sans-serif";
-}
-
 .header h1 {
-  font-family: "monospace";
-  font-size: 48px;
+  background: url("https://i.pinimg.com/originals/9e/8e/18/9e8e18212e529bb23bcdeb3515b2276a.jpg");
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
 }
-
-.content li {
-  font-size: 24px;
-  color: red;
-}
-
-.footer p {
-  font-size: 12px;
-  color: blue;
-}
-/*# sourceMappingURL=all1.css.map */
+/*# sourceMappingURL=all.css.map */
